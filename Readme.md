@@ -6,7 +6,7 @@ Get your public IP address information.
 ## Access
 ### Web
 
-Use your browser to visit: https://ip.hlz.ink
+Use your browser to visit: https://ip.quickso.cn
 
 ![](/img/screenshot.png)
 
@@ -17,28 +17,28 @@ Use your browser to visit: https://ip.hlz.ink
 Use `curl` to get your ip infomration on a headless machine
 
 ```bash
-curl ip.hlz.ink
+curl ip.quickso.cn
 ```
 
 More detail? (Use [ipinfo.io](https://ipinfo.io) database) 
 
 ```bash
-curl ip.hlz.ink/json
+curl ip.quickso.cn/json
 
 # equal to
-curl ip.hlz.ink/json/ipinfo
+curl ip.quickso.cn/json/ipinfo
 ```
 
 Also, you can use cloudflare database
 
 ```bash
-curl ip.hlz.ink/json/cf
+curl ip.quickso.cn/json/cf
 ```
 
 In addition, you can ask for the information of a given ip by
 
 ```bash
-curl ip.hlz.ink/query/{ip_address}
+curl ip.quickso.cn/query/{ip_address}
 ```
 
 ## How to deploy your own one
